@@ -1,0 +1,42 @@
+body{
+    background-color: #ffb273;
+    font-family: didot;
+}
+
+.header{
+    background-color: #E51E25;
+    color: bisque;
+    padding: 50px;
+    text-align:center;
+    height: 150px;
+    display: block;
+}
+
+.header h1{
+    font-size: 40px;
+    margin: 70;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: bisque;
+    display: flex;
+    justify-content: flex-start;
+    gap:5px;
+}
+
+.container div{
+    color:#E51E25;
+    width: 66px;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.container div:hover{
+    background-color: #ffb273;
+}
