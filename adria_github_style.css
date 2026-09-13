@@ -40,3 +40,63 @@ html, body{
 .container div:hover{
     background-color: #ffb273;
 }
+
+.container-produtos{
+   display: flex;
+   flex-direction: row;
+}
+
+.text{
+    background-color: #558b2f;
+    color: rgb(245, 245, 245);
+    width: 210px;
+    padding: 10px;
+    height: 1000px;
+    flex-direction: row;
+    text-align: left;
+}
+
+.center{
+    background-color: #f7e28f;
+    width: 1000px;
+    text-align: left;
+    padding: 20px;
+}
+
+.lado{
+    background-color:#FF6600;
+    color:white;
+    width:200px;
+    padding: 20px;
+}
+
+.lado h2{
+    color:bisque;
+    text-align: center;
+}
+
+.footer{
+    background-color: bisque;
+    color:#E51E25;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:780px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .container div{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .container-produtos{
+        flex-direction: column;
+    }
+    .text, .center, .lado{
+        width: 100%;
+        height: auto;
+    }
+}
