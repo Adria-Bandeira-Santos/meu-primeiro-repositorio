@@ -56,12 +56,35 @@ html, body{
     text-align: left;
 }
 
+.text b{
+    color: #ffb273;
+}
+
 .center{
     background-color: #f7e28f;
     width: 1000px;
     text-align: left;
     padding: 20px;
 }
+
+.center h2{
+    text-align: left;
+    margin: 10;
+}
+
+.center-sabor h2{
+    color:#558b2f;
+    text-align: center;
+}
+
+.center-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 5px;
+}
+
 
 .lado{
     background-color:#FF6600;
